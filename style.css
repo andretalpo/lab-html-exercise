@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-body {
+* {
   font-family: 'Poppins';
 }
 
 header > div {
-    padding: 0 25px;
+    padding: 7px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +37,84 @@ nav a {
     width: 80px;
 }
 
-.search-icon {
-    width: 20px;
+.header > div input, button, .search-icon {
+    height: 35px;
+    border: none;
+}
+
+.search-icon, #search-bar {
+    background-color: rgba(0,0,0,.05);
+}
+
+.container-search a {
+    text-decoration: none;
+    color: gray;
+    width: 70px;
+    text-align: center;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.link-join {
+    border: 1px solid lightslategrey;
+}
+
+.button-search {
+    background-color: #fb3e44;
+    color: white;
+    width: 100px;
+}
+
+#search-bar {
+    color: lightslategray;
+    padding: 0 5px;
+    width: 82%;
+}
+
+.section-join {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    background-color: rgba(232,217,217,.3)
+}
+
+.section-join div {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.section-join p {
+    width: 33%;
+    margin-bottom: 4em;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 0;
+}
+
+.section-join a {
+    text-decoration: none;
+    padding: 10px 50px;
+    font-weight: bold;
+}
+
+.link-btn-red-shadow {
+    background-color: #FB3B49;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+.link-btn-white {
+    background-color: white;
+    color: black;
 }

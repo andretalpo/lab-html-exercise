@@ -25,23 +25,25 @@
                 </ul>
             </nav>
         </div>
-        <div>
+        <div class="container-search">
             <img class="logo" src="images/npm-logo.png" alt="npm logo">
-            <form action="/search" method="GET">
+            <form class="form" action="/search" method="GET">
                 <img class="search-icon" src="images/magnifying-glass.png" alt="glass">
                 <input type="text" name="search-bar" id="search-bar" placeholder="Search packages">
-                <button> Search </button>
+                <button class="button-search"> Search </button>
             </form>
-            <a href="#"> Join </a>
+            <a class="link-join" href="#"> Join </a>
             <a href="#"> Log In </a>
         </div>
     </header>
-    <section id="join" class="join">
+    <section id="section-join" class="section-join">
         <h1>Build amazing things</h1>
         <p>Essential JavaScript development tools that help you go to market faster and build powerful applications
             using modern open source code.</p>
-        <a href="#">See plans</a>
-        <a href="#">Join for free</a>
+        <div>
+            <a class="link-btn-red-shadow" href="#">See plans</a>
+            <a class="link-btn-white" href="#">Join for free</a>
+        </div>    
     </section>
     <section id="disclaimer" class="disclaimer">
         <img src="images/triangle-hexagon.svg" alt="triangle hexagon">
