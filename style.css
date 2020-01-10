@@ -121,4 +121,23 @@ h1 {
 .link-btn-white {
     background-color: white;
     color: black;
-} 
+}
+
+.section-disclaimer p {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 2em;
+    transform: skew(9deg,0deg);
+    background-color: rgba(255,204,53,.4);
+    font-style: italic;
+    padding: 0 30px;
+}
+
+.hexagon-img {
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
